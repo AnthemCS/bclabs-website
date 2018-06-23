@@ -1,0 +1,260 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    color: #232323;
+    margin: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: #273744 !important;
+}
+.first-section{
+    /*background-image: url("/assets/img/avocado_background.png");*/
+    width: 100%;
+    height: 400px;
+/*    margin: 50px 0 -20px 0;*/
+}
+section{
+    padding: 40px 0;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.primary-section{
+    background-color: #e9ecef;
+    padding-top: 40px;
+/*    margin: 20px 0;*/
+}
+#about{
+    margin-bottom: 60px;
+}
+.secondary-section{
+    background-color: #273744;
+    color: #ffffff;
+    padding: 20px 0 0 0 !important;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+.glyphicon-chevron-left:before{
+    color: #c6c2a8;
+}
+.glyphicon-chevron-right:before{
+    color: #c6c2a8;
+}
+.carousel-indicators li{
+    background-color: #c6c2a8;
+}
+.carousel-indicators li.active{
+    background-color: #273744;
+}
+.title, .sub-title{
+    font-family: 'rubik', sans-serif;
+    font-size: 30px;
+    color: #2d2d2d;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sub-title{
+    font-size: 20px;
+    color: #c8c8c8;
+}
+.contact-text{
+    font-size: 20px;
+}
+p{
+    margin: auto;
+}
+.glyphicon{
+    color: #c6c2a8;
+}
+hr{
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #c6c2a8;
+}
+.img-md{
+    margin: auto;
+    width: auto;
+/*    height: 200px;*/
+}
+.google-map{
+    width: 100%;
+}
+.navbar{
+    background-color: #273744 !important;
+    border-bottom: 15px solid #c6c2a8 !important;
+    background-image: none !important;
+    height: 100px;
+    padding: 20px;
+}
+.brand-name{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.brand-name:hover, brand-name:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar-nav>li>a{
+    color: #ffffff !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+}
+.navbar-nav>li>a:hover{
+    color: #c6c2a8 !important;
+}
+.navbar-nav>.active>a{
+    background-color: transparent !important;
+    background-image: none !important;
+/*    border-bottom: 2px solid #ffffff;*/
+}
+.navbar-toggle{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar-toggle:hover{
+    background-color: transparent !important;
+}
+
+/*Feature products stylesheet*/
+
+.img-sm{
+    margin: auto;
+    padding: 10px 0;
+    width: 200px;
+    height: 200px;
+}
+.img-xs{
+    margin: auto;
+    padding: 10px 0;
+    width: auto;
+    height: 150px;
+}
+.product-name{
+    color: #c6c2a8;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-transform: capitalize;
+}
+.product-category, .product-text{
+    color: #767676;
+    margin: auto;
+    text-align: left;
+    text-transform: capitalize;
+}
+.product-category{
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*Service stylesheet*/
+
+.service-title{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.paragraph{
+    font-size: 18px;
+    color: #767676;
+}
+
+/*Testimonial stylesheet*/
+
+.client-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+}
+.client-position{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c6c2a8;
+    margin: auto;
+}
+.mt-sm{
+    margin-top: 30px;
+}
+
+/*Contact us stylesheet*/
+
+.form-control{
+    height: 45px !important;
+    font-size: 15px;
+    color: inherit;
+    background-color: #ffffff;
+    border: 2px solid #273744;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.form-control:focus{
+    outline-color: none;
+    border-color: #273744;
+    box-shadow: none;
+}
+.text-area{
+    height: 100px !important;
+}
+.btn-send{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-shadow: none;
+    background-image: none;
+    border: none;
+    background-color: #273744;
+    border-radius: 0px;
+}
+.btn-send:hover{
+    background-color: #273744;
+    color: #ffffff;
+    opacity: .7;
+}
+
+/*Footer stylesheet*/
+
+.brand{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footer-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.footer-link, .footer-link:visited{
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+.footer-link:hover{
+    color: #c6c2a8 !important;
+    text-decoration: none;
+}
+.footer-text{
+    text-transform: capitalize;
+}
+.primary-link{
+    color: #ffc92a;
+}
