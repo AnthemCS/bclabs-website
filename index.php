@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#273744">
     <link rel="shortcut icon" href="assets/images/Logo_2.png" type="image/x-icon">
-    <title>BC Labs</title>
+    <title>Brich Cosmetic Laboratories | Welcome to</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
+<style type="text/css">
+    @media(max-width: 578px) {
+        body {
+            text-align: center !important;
+        }
+        
+        .product-category, .product-text {
+            text-align: center !important;
+        }
+    }
+</style>
 
 <body>
     <div class="container">
@@ -17,7 +29,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <span>
-                    <a class="brand-name" href="#"><img src="assets/img/Logo_2.png" style="height: 3.8rem;"> Brich Laboratories</a>
+                    <a class="brand-name" href="#"><img src="assets/img/Logo_2.png" style="height: 3.8rem;"> Brich Cosmetic Laboratories</a>
                 </span>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
@@ -65,11 +77,11 @@
                 <!--<p class="sub-title">Latest products in our stock available now.</p>-->
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-sm">
-                        <img src="assets/img/brich_lab.png" class="img-md img-responsive" style="border-left: 10px solid #273744;">
+                        <img src="assets/img/brich_labs.png" class="img-md img-responsive" style="border-left: 10px solid #273744;">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <h3 class="mt-sm">We produce what people want.</h3>
-                        <p class="paragraph">Brich Laboratories is a hair care manufacturer and involved in consulting services. All our products contain natural oils such as avocado and macadamia oil.</p>
+                        <h1 class="mt-sm">We produce what people want.</h1>
+                        <h3 class="highlight">Brich Cosmetic Laboratories is a hair care manufacturer and involved in consulting services. All our products contain natural oils such as avocado and macadamia oil.</h3>
                     </div>
                 </div>
             </div>
@@ -80,32 +92,33 @@
     <div class="secondary-section">
         <div class="container">
             <hr style="height:10px;">
-            <p class="paragraph" style="font-size: 25px; color: #ffffff; text-align: center;">My hair is capable of doing a lot of different things.</p>
+            <em class="text-center" style="font-size: 25px; color: #ffffff; text-align: center;">See your own natural beauty...</em>
             <hr style="height:10px;">
         </div>
     </div>
     <section class="mt-sm" id="product">
         <div class="container">
             <div class="col-md-12 mt-sm" >
-                <h1 class="title">featured products</h1>
+                <h1 class="title">Featured products</h1>
                 <p class="sub-title">Latest products in our stock available now.</p>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="assets/img/virgin_avocado_oil.png" class="img-sm">
-                        <h2 class="product-name">Virgin Avocado Oil</h2>
+                        <h1 class="product-name">Virgin Avocado Oil</h1>
                         <h2 class="product-category">Hair Care</h2>
                         <h2 class="product-text">Natural Best avocado hair product</h2>
+                
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="assets/img/virgin_coconut_oil.png" class="img-sm">
                         <h1 class="product-name">virgin coconut oil</h1>
-                        <h1 class="product-category">hair care</h1>
-                        <h1 class="product-text">natural best coconut hair product</h1></div>
+                        <h2 class="product-category">hair care</h2>
+                        <h2 class="product-text">natural best coconut hair product</h1></div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="assets/img/cosmetic_package.png" class="img-sm">
                         <h1 class="product-name">virgin coconut oil package</h1>
-                        <h1 class="product-category">hair care</h1>
-                        <h1 class="product-text">natural best coconut hair product</h1></div>
+                        <h2 class="product-category">hair care</h2>
+                        <h2 class="product-text">natural best coconut hair product</h2></div>
                 </div>
             </div>
         </div>
@@ -124,12 +137,15 @@
         <div class="container">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h1 class="title">services </h1>
-                <p class="sub-title">Successful services provided within our best brinch Lab</p>
+                <p class="sub-title">Successful services provided within our best Brich Cosmetic Labs</p>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="assets/img/factory.png" class="img-sm">
                         <h1 class="service-title">Manufacturing</h1>
-                        <p class="paragraph">Delivering efficiencies and value of manufacturing hair products to drive operational excellence and performance improvements, through enabling hair product introductions, agility, speed, quality and cost as competitive advantage.</p>
+                        <p class="paragraph">Brich Laboratories strives to manufacture haircare products with virgin oils and natural ingredients, thus promoting and improving the growth of natural hair.
+We have a team of experienced formulation chemists who develop new products and formulations according to what the market needs at an affordable price.
+All raw materials used are tested and verified according to industry standards before use.</p>
+                        
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img src="assets/img/megaphone.png" class="img-sm">
@@ -156,16 +172,16 @@
     <section class="primary-section" id="testimonial">
         <div class="container">
             <div class="col-md-12">
-                <h1 class="title">testimonial </h1>
-                <p class="sub-title">Check what other's say about us.</p>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <img src="assets/img/afro.jpg" class="img-circle img-sm">
+                <h1 class="title">Word from the Founder</h1>
+             
+                <div class="row text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <img src="assets/img/afro.png" class="img-circle" width="200">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-sm">
-                        <p class="paragraph">Congratulations Bridget for developing this unique product. I am sure millions of people will be grateful.</p>
-                        <h1 class="client-name mt-sm">Julie C.</h1>
-                        <h1 class="client-position">Hairdresser</h1>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-sm">
+                        <p class="paragraph">"I believe that we at Brich have the responsibility of changing the world view of what it means to be naturally beautiful.</p>
+                        <h1 class="client-name mt-sm">Barbara Moyo</h1>
+                        <h1 class="client-position">Founder, Brich Cosmetic Laboratories</h1>
                     </div>
                 </div>
             </div>
@@ -179,10 +195,8 @@
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 mt-sm">
                     <br>
-                    <p class="contact-text"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>  064 604 9013</p>
-                    <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  tmbarbara1@gmail.com</p>
-                    <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  brich@bclabs.co.za</p>
-                    <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  info@bclabs.co.za</p> <br>
+
+                    <a class="contact-text" href="mailto:info@bclabs.co.za"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  info@bclabs.co.za</a> <br>
                     <p class="contact-text"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>48 Church Street <br>
                             Turffonten <br>
                             Johannesburg <br>
@@ -222,7 +236,7 @@
     <!--        </div>-->
     <!--    </div>-->
     <!--</div>-->
-    <section class="secondary-section">
+    <footer class="secondary-section">
         <div class="container">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="row">
@@ -240,10 +254,10 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <h1 class="footer-title">Contacts</h1>
-                        <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>  064 604 9013</p>
-                        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  tmbarbara1@gmail.com</p>
-                        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  brich@bclabs.co.za</p>
-                        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  info@bclabs.co.za</p>
+                    
+                  
+                  
+                        <a href="mailto:info@bclabs.co.za"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  info@bclabs.co.za</a>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <h1 class="footer-title">Quick Links</h1>
@@ -269,7 +283,7 @@
                     <p class="footer-text pull-right">developed by <a href="https://www.anthemcs.co.za" class="footer-link primary-link" target="_blank">Anthem Creative Studios & CO</a></p>
                 </div>
         </div>
-    </section>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/scroll-spy.js"></script>
     <script src="assets/js/jarallax.min.js"></script>

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
 body{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 15px;
+    font-family: 'Work Sans' ,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
@@ -33,8 +35,10 @@ section{
 .secondary-section{
     background-color: #273744;
     color: #ffffff;
-    padding: 20px 0 0 0 !important;
 }
+
+
+
 .carousel-control.left, .carousel-control.right{
     background-image: none;
 }
@@ -50,9 +54,9 @@ section{
 .carousel-indicators li.active{
     background-color: #273744;
 }
-.title, .sub-title{
+.title {
     font-family: 'rubik', sans-serif;
-    font-size: 30px;
+    font-size: 4rem !important;
     color: #2d2d2d;
     font-weight: 500;
     font-style: normal;
@@ -60,8 +64,10 @@ section{
     text-transform: capitalize;
 }
 .sub-title{
-    font-size: 20px;
-    color: #c8c8c8;
+     font-weight: 300;
+     text-align: center;
+     color: #c8c8c8;
+      font-size: 2.5rem !important;
 }
 .contact-text{
     font-size: 20px;
@@ -83,8 +89,23 @@ hr{
     width: auto;
 /*    height: 200px;*/
 }
+footer.secondary-section {
+    margin-bottom: 0px !important;
+    padding: 1.5rem 0 !important;
+}
+ a {
+   display: inline-block !important;
+   text-decoration: none !important;
+}
+
+footer a {
+     color: #fff !important;
+}
 .google-map{
     width: 100%;
+}
+em{
+    display: block !important;
 }
 .navbar{
     background-color: #273744 !important;
@@ -127,12 +148,17 @@ hr{
 }
 
 /*Feature products stylesheet*/
+h1 {
+    font-size: 2.5rem !important;
+    margin: 20px 0 !important;
+    font-weight: bold;
+}
 
 .img-sm{
     margin: auto;
     padding: 10px 0;
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 .img-xs{
     margin: auto;
@@ -257,4 +283,9 @@ hr{
 }
 .primary-link{
     color: #ffc92a;
+}
+
+.highlight {
+    font-size: 1.5rem;
+    color: #767676;
 }
